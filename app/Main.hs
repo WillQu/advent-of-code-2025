@@ -2,7 +2,7 @@ module Main where
 
 import Day1 ( day1, day1part2 )
 import Day2 ( day2part1, day2part2 )
-import Day3 ( day3part1 )
+import Day3 ( day3part1, day3part2 )
 
 main :: IO ()
 main = do
@@ -26,3 +26,7 @@ main = do
   day3part1 "day3.example"
   putStrLn "Day 3 part 1"
   day3part1 "day3"
+  putStrLn "Day 3 part 2 example"
+  day3part2 "day3.example"
+  putStrLn "Day 3 part 2"
+  day3part2 "day3"
