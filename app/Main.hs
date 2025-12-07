@@ -6,7 +6,7 @@ import Day3 ( day3part1, day3part2 )
 import Day4 ( day4part1, day4part2 )
 import Day5 ( day5part1, day5part2 )
 import Day6 ( day6part1, day6part2 )
-import Day7 ( day7part1 )
+import Day7 ( day7part1, day7part2 )
 
 main :: IO ()
 main = do
@@ -68,3 +68,7 @@ main = do
   day7part1 "day7.example"
   putStrLn "Day 7 part 1"
   day7part1 "day7"
+  putStrLn "Day 7 part 2 example"
+  day7part2 "day7.example"
+  putStrLn "Day 7 part 2"
+  day7part2 "day7"
